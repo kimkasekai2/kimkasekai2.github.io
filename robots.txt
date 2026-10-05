@@ -1,0 +1,33 @@
+User-agent: *
+
+# Jika ingin mesin pencari merayapi direktori berikut komentari aturan indeks terkait
+
+# Data eksternal: mesin pencari dilarang merayapi data eksternal demi melindungi data sensitif
+Disallow: /data/  # Mencegah mesin pencari mengakses file data eksternal
+
+# Program aplikasi: mesin pencari dilarang merayapi konten terkait program aplikasi
+Disallow: /apps/  # Mencegah mesin pencari mengakses direktori program aplikasi
+
+# Terkait GitHub: mesin pencari dilarang merayapi konten terkait GitHub
+Disallow: /.github/  # Mencegah mesin pencari mengakses konten terkait GitHub
+
+# Modul: mesin pencari dilarang merayapi file modul demi melindungi logika kode
+Disallow: /module/  # Mencegah mesin pencari mengakses file modul
+
+# PWA: mesin pencari dilarang merayapi konten PWA terkait
+Disallow: /pwa/  # Mencegah mesin pencari mengakses konten PWA
+
+# File JavaScript: mesin pencari dilarang merayapi file JavaScript
+Disallow: /scripts/  # Mencegah mesin pencari mengakses file JavaScript
+
+# File font: mesin pencari dilarang merayapi file font
+Disallow: /fonts/  # Mencegah mesin pencari mengakses file font
+
+# File gambar: mesin pencari dilarang merayapi file gambar
+Disallow: /icon/  # Mencegah mesin pencari mengakses file gambar
+
+# Berkas gambar: mesin pencari dilarang merayapi berkas gambar
+Disallow: /img/  # Mencegah mesin pencari mengakses file gambar
+
+# File audio: mesin pencari dilarang merayapi file audio
+Disallow: /media/  # Mencegah mesin pencari mengakses file audio
